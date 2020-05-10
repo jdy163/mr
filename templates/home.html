@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="../static/styles.css">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div id="brandname">
+          <h1><a href="/">Movie Recommender</a></h1>
+        </div>
+      </div>
+    </header>
+
+    <div class="ml-container">
+      <form action="{{ url_for('predict')}}" method="POST">
+        <label>Enter Your movie name here</label>
+        <!-- <input type="text" name="comment"/> -->
+        <textarea name="message" rows="4" cols="50"></textarea>
+        <br />
+
+        <input type="submit" class="btn-info" value="predict" />
+      </form>
+    </div>
+    <div><a href="movielist">all movie list</a></div>
+  </body>
+</html>
