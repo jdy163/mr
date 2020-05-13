@@ -15,14 +15,15 @@
 
     <div class="ml-container">
       <form action="{{ url_for('predict')}}" method="POST">
-        <label>Enter Your movie name here</label>
         <!-- <input type="text" name="comment"/> -->
-        <textarea name="message" rows="4" cols="50"></textarea>
+        <textarea name="message" rows="4" cols="50" >Enter Your movie name here</textarea>
         <br />
 
-        <input type="submit" class="btn-info" value="predict" />
+        
       </form>
     </div>
-    <div><a href="movielist">all movie list</a></div>
+    <div><input type="submit" class="btn-info" value="predict" /></div>
+
+    <div class="mlist"><a href="movielist">all movie list</a></div>
   </body>
 </html>

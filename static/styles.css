@@ -6,18 +6,9 @@ body{
 
 .container{
 	width:100%;
-	margin: auto;
 	overflow: hidden;
 }
 
-header{
-	background:#03A9F4;#35434a;
-	border-bottom:#448AFF 3px solid;
-	height:120px;
-	width:100%;
-	padding-top:30px;
-
-}
 
 .main-header{
 			text-align:center;
@@ -31,17 +22,18 @@ header{
 	font-size:30px;
 	color: #fff;
 	margin: 10px;
+	text-decoration:none;
 }
 
-header h2{
+header h1{
 	text-align:center;
 	color:#fff;
-
 }
 
 
 
 .btn-info {background-color: #2196F3;
+	text-align:center;
 	height:40px;
 	width:100px;} /* Blue */
 .btn-info:hover {background: #0b7dda;}
@@ -54,3 +46,12 @@ header h2{
     width: 200px;
     height: 150px;
 }
+
+.mlist{
+	text-align:center;
+}
+
+div{
+	text-align:center;
+}
+
